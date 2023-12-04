@@ -1,0 +1,178 @@
+:root{
+    --textoGeral: "Roboto", sans-serif;
+	--textoMenu: "Roboto Condensed", sans-serif;
+	--textoBotaoTitulo: "Montserrat", sans-serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+}
+.container{
+    display: grid;
+    grid-template-rows: 80px 300px 380px 200px 200px 50px;
+}   
+.topo{
+    display: flex;
+    background-color: aqua;
+    gap: 400px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+nav:a{
+    text-decoration: none;
+}
+.botao-login{
+    display: flex;
+	align-items: center;
+}
+.botao-login button{
+    border: none;
+	background-color: #0096FF;
+	padding: 0.4rem 1rem;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.botao-login button:hover{
+    background-color: #6b63fff1;
+}
+.botao-login button:a{
+    text-decoration: none;
+	color: #fff;
+}
+.bemvindo{
+    display: flex;
+    background-color: #0096FF;
+    align-items: center;
+    gap: 300px;
+}
+.texto{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.texto p{
+   width: 300px;
+}
+.inscrever{
+    display: flex;
+	align-items: center;
+}
+.inscrever button{
+    width: 150px;
+    height: 50px;
+    border: none;
+	background-color: #6b63fff1;
+	padding: 0.4rem 1rem;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.inscrever button:hover{
+    background-color: blueviolet;
+}
+.inscrever button:a{
+    text-decoration: none;
+	color: #fff;
+}
+.nosso-trabalho{
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+.produtos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.titulos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.sobre{
+    display: flex;
+    flex-direction: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.inform{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+}
+.clientes{
+    background-color: blue;
+}
+.lista{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fornecedores{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+}
+.formularios{
+    background-color: rgb(127, 219, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 60px;
+}
+.input-group{
+    justify-content: center;
+    align-items: center;
+}
+.input-box1{
+    flex-direction: row;
+    gap: 10px;
+}
+.input-box input{
+    width: 300px;
+    height: 40px;
+}
+.botao-formulario{
+    display: flex;
+    justify-content: center;
+	align-items: center;
+    padding-top: 15px;
+}
+.botao-formulario button{
+    border: none;
+	background-color: #6b63ff63;
+	padding: 0.4rem 1rem;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.botao-formulario:hover{
+    background-color: rgb(153, 43, 226);
+}
+.botao-formulario button:a{
+    text-decoration: none;
+	color: #fff;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    gap: 800px;
+}
