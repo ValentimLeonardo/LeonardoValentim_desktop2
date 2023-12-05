@@ -23,7 +23,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 100px;
+    gap: 50px;
 }
 nav:a{
     text-decoration: none;
@@ -94,12 +94,14 @@ nav:a{
     background-color: aquamarine;
     padding-top: 5px;
     padding-bottom: 3px;
+    font-family: var(--textoGeral);
+    font-size: 0.875em;
 }
 .produtos{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 170px;
 }
 .titulos{
     display: flex;
@@ -124,6 +126,8 @@ nav:a{
 }
 .clientes{
     background-color: blue;
+    font-family: var(--textoGeral);
+    font-size: 0.875em;
 }
 .lista{
     display: flex;
@@ -145,10 +149,14 @@ nav:a{
     justify-content: center;
     flex-direction: column;
     padding-bottom: 60px;
+    font-family: var(--textoGeral);
+    font-size: 0.875em;
 }
 .input-group{
     justify-content: center;
     align-items: center;
+    font-family: var(--textoMenu);
+    font-size: 1.2em;
 }
 .input-box1{
     flex-direction: row;
@@ -170,6 +178,8 @@ nav:a{
 	padding: 0.4rem 1rem;
 	border-radius: 5px;
 	cursor: pointer;
+    font-family: var(--textoBotaoTitulo);
+    font-size: 0.875em;
 }
 .botao-formulario:hover{
     background-color: rgb(153, 43, 226);
@@ -183,4 +193,6 @@ footer{
     justify-content: center;
     background-color: aqua;
     gap: 800px;
+    font-family: var(--textoGeral);
+    font-size: 1em;
 }
