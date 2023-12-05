@@ -16,6 +16,8 @@ body{
     display: flex;
     background-color: aqua;
     gap: 400px;
+    font-family: var(--textoGeral);
+    font-size: 0.875em;
 }
 nav{
     display: flex;
@@ -36,6 +38,8 @@ nav:a{
 	padding: 0.4rem 1rem;
 	border-radius: 5px;
 	cursor: pointer;
+    font-family: var(--textoBotaoTitulo);
+    font-size: 0.875em;
 }
 .botao-login button:hover{
     background-color: #6b63fff1;
@@ -49,6 +53,8 @@ nav:a{
     background-color: #0096FF;
     align-items: center;
     gap: 300px;
+    font-family: var(--textoBotaoTitulo);
+    font-size: 0.875em;
 }
 .texto{
     width: 40%;
@@ -72,6 +78,8 @@ nav:a{
 	padding: 0.4rem 1rem;
 	border-radius: 5px;
 	cursor: pointer;
+    font-family: var(--textoBotaoTitulo);
+    font-size: 0.875em;
 }
 .inscrever button:hover{
     background-color: blueviolet;
@@ -128,7 +136,7 @@ nav:a{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding-bottom: 15px;
+    padding-bottom: 30px;
 }
 .formularios{
     background-color: rgb(127, 219, 255);
