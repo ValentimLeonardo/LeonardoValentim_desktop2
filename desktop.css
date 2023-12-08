@@ -34,7 +34,6 @@ nav:a{
 }
 .botao-login button{
     border: none;
-	background-color: #0096FF;
 	padding: 0.4rem 1rem;
 	border-radius: 5px;
 	cursor: pointer;
@@ -51,6 +50,7 @@ nav:a{
 .bemvindo{
     display: flex;
     background-color: #0096FF;
+    background-image: url("imagens/Japan-rafiki.svg");
     align-items: center;
     gap: 300px;
     font-family: var(--textoBotaoTitulo);
