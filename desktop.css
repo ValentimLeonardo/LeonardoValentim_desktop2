@@ -25,7 +25,7 @@ nav{
     align-items: center;
     gap: 50px;
 }
-nav:a{
+.nav{
     text-decoration: none;
 }
 .botao-login{
@@ -57,6 +57,7 @@ nav:a{
     font-size: 0.875em;
 }
 .texto{
+    background-color: #0096FF;
     width: 40%;
     display: flex;
     flex-direction: column;
